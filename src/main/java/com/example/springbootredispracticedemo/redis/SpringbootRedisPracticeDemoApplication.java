@@ -1,4 +1,4 @@
-package com.example.springbootredispracticedemo;
+package com.example.springbootredispracticedemo.redis;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,8 +1,15 @@
-package com.example.springbootredispracticedemo;
+package com.example.springbootredispracticedemo.redis;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Component;
+
+/**
+ * Redis 操作工具類
+ * 使用RedisTemplate物件來對Redis進行操作。
+ */
+@Component
 public class RedisUtils {
+    @Autowired
     private RedisTemplate<String, String> redisTemplate;
 
     /**
